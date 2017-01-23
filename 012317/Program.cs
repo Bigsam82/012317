@@ -10,6 +10,14 @@ namespace _012317
     {
         static void Main(string[] args)
         {
+
+            Animal animal1 = new Animal(4, 12, 500, "white");
+            Animal animal2 = new Animal(6, 1, 1);
+            
+            animal1.PrintAnimalInfo();
+            animal2.PrintAnimalInfo();
         }
+
+      
     }
 }
