@@ -16,7 +16,11 @@ namespace _012317
             
             animal1.PrintAnimalInfo();
             animal2.PrintAnimalInfo();
+
+            Cat cat1 = new Cat("grumpy", "long", false);
+            cat1.PrintAnimalInfo();
         }
+
 
       
     }
