@@ -11,8 +11,8 @@ namespace _012317
         private int legs;
         private int size;
         private int weight;
-        private string color;
-        private bool isGoodToEat;
+        protected string color;
+        protected bool isGoodToEat;
 
         public Animal()
         {
@@ -48,6 +48,10 @@ namespace _012317
             Console.WriteLine("It weighs " + weight);
             Console.WriteLine("And is the color " + color);
 
+        }
+        protected void WhoAmI()
+        {
+            Console.WriteLine("I am an animal");
         }
         
     }
