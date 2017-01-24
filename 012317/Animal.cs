@@ -41,7 +41,7 @@ namespace _012317
 
 
         }
-        public void PrintAnimalInfo()
+        public virtual void PrintAnimalInfo()
         {
             Console.WriteLine("This animal has: " + legs + "# of legs");
             Console.WriteLine("It's size is: " + size);

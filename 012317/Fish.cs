@@ -26,7 +26,12 @@ namespace _012317
         {
             Console.WriteLine("Just keep swimming, just keep swimming.....");
         }
-        
+      //  public override void PrintAnimalInfo()
+      //  {
+      //      Console.WriteLine("I am a fish");
+      //      base.PrintAnimalInfo();
+      //  }
+
 
     }
 }

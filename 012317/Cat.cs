@@ -34,5 +34,13 @@ namespace _012317
         {
             Console.WriteLine("Meow");
         }
+        public override void PrintAnimalInfo()
+        {
+            Console.WriteLine("I am a cat");
+            base.PrintAnimalInfo();
+            Console.WriteLine("Fur lenght is: " + " " + furLength);
+            Console.WriteLine("The Breed is:  " + breed + "cat");
+            Console.WriteLine("Declawed: " + true);
+        }
     }
 }
